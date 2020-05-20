@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1f04a59-ff13-438f-bb66-89275999bed7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/BMS-Sylvia" />
+  </component>
+  <component name="ProjectId" id="1bA3bsgD7PltuZvviLnA6vjTQsr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\John\BMS\templates\Budgetentry" />
+      <recent name="C:\Users\John\BMS\Budgetentry" />
+      <recent name="C:\Users\John\BMS\templates\Userdetail" />
+      <recent name="C:\Users\John\BMS\Userdetail" />
+      <recent name="C:\Users\John\BMS\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="BMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\John\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver 8003" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1f04a59-ff13-438f-bb66-89275999bed7" name="Default Changelist" comment="" />
+      <created>1588061146324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588061146324</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589267827965">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589267827965" />
+    <state x="460" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588692821391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588692821391" />
+    <state width="718" height="466" key="DebuggerActiveHint" timestamp="1589300258235">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="718" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1589300258235" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1589267807136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589267807136" />
+    <state width="1344" height="281" key="GridCell.Tab.0.bottom" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="1344" height="281" key="GridCell.Tab.0.center" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="1344" height="281" key="GridCell.Tab.0.left" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="1344" height="281" key="GridCell.Tab.0.right" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="1344" height="281" key="GridCell.Tab.1.bottom" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="1344" height="281" key="GridCell.Tab.1.center" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="1344" height="281" key="GridCell.Tab.1.left" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="1344" height="281" key="GridCell.Tab.1.right" timestamp="1589483692745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="281" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589483692745" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588178174052">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1588178174052" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1589299546252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1589299546252" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1589301229887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589301229887" />
+    <state x="254" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589299584458">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="254" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1589299584458" />
+    <state x="324" y="78" width="700" height="530" key="recent.locations.popup" timestamp="1588178181443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="78" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1588178181443" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588860529708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588860529708" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Budgetentry/forms.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Budgetentry/views.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Budgetentry/views.py</url>
+          <line>186</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Budgetentry/forms.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Budgetentry/forms.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
