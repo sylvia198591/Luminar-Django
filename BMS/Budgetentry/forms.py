@@ -10,11 +10,7 @@ from django.forms import ModelChoiceField
 class DateInput(forms.DateInput):
     input_type = 'date'
 class Addaccountform(ModelForm):
-    # def __init__(self, *args, **kwargs):
-    #     super(Addaccountform, self).__init__(*args, **kwargs)
-    #     instance = getattr(self, 'instance', None)
-    #     if instance and instance.pk:
-    #         self.fields['Username1'].widget.attrs['readonly'] = True
+
     class Meta:
         model = Account
         fields = ["Paymode",]
@@ -34,33 +30,10 @@ class Addessentialform(ModelForm):
         def clean(self):
             cleaned_data = super().clean()
             Category = cleaned_data.get("Category")
-class MenuModelChoiceField(ModelChoiceField):
-    def label_from_instance(self, obj):
-        return "Menu #%s) %s" % (obj.id,obj.name)
 
 class Addentryform(ModelForm):
-    Paymode = forms.MultipleChoiceField()
-    # Username = forms.CharField(max_length=200, )
 
-    # def __init__(self, *args, **kwargs):
-    #     super(Addentryform, self).__init__(*args, **kwargs)
-    #     instance = getattr(self, 'instance', None)
-    #     if instance and instance.pk:
-    #         self.fields['Username'].widget.attrs['readonly'] = True
-
-    # Username = request.session["Username"]
-    # Paymode = forms.MultipleChoiceField(widget=forms.CheckboxSelectMultiple, required=True)
-    def __init__(self, Username, *args, **kwargs):
-        super(Addentryform, self).__init__(Username, **kwargs)
-        self.fields['Paymode'].queryset = Account.objects.filter(Username=Username)
-        # return None
-        return self.fields['Paymode']
-        # return None
-        # Paymode_choices = [(Paymode.id, Paymode.Paymode) for Paymode in self.fields['Paymode'].queryset]
-        # self.fields['Paymode'].choices = Paymode_choices
-        # self.fields['Paymode'].widget = forms.CheckboxSelectMultiple()
-        # self.fields['Paymode'].choices = self.fields['Paymode'].queryset
-        print("--------------")
+    
     class Meta:
 
         model=Entry
@@ -71,10 +44,14 @@ class Addentryform(ModelForm):
             'Dfield': DateInput(),
             # 'Paymode':Account.objects.filter(Username=request.session['Username']),
         }
+#         def __init__(self, Username, *args, **kwargs):
+#         super(Addentryform, self).__init__(Username, **kwargs)
+#         self.fields['Paymode'].queryset = Account.objects.filter(Username=Username)
+
 
         def clean(self):
             cleaned_data = super().clean()  # mandatory
-            # Paymode = cleaned_data.get("Paymode")
+            Paymode = cleaned_data.get("Paymode")
             Category = cleaned_data.get("Category")
             Amount = cleaned_data.get("Amount")
             Dfield = cleaned_data.get("Dfield")
