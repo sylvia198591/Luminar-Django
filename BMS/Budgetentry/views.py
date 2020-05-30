@@ -144,37 +144,11 @@ class deleteEssential(DeleteView):
 
 
 class createEntry(TemplateView):
-    # Username=None
-    # def get(self):
-    #     print("ggg")
 
-    # global x
-    # print(x)
-    # User1=request.session['Username']
     form_class=Addentryform
     model_name=Entry
     template_name = "Budgetentry/createEntry.html"
 
-    # def form_valid(self, form):
-    #     Entry = form.save(commit=False)
-    #
-    #     Entry.Username=Users.objects.get(Username=self.request.Username)  # use your own profile here
-    #     Entry.save()
-    #     print("aa")
-    #     return HttpResponseRedirect(self.get_success_url())
-    # def get_form(self, form_class):
-    #     u = request.session['Username']
-    #     print("uuuu:",u)
-    #     if form_class:
-    #         form_class = self.get_form_class()
-    #         print("ssss:",form_class)
-    #     return form_class(user=self.request.user, **self.get_form_kwargs())
-
-    # def get_form_kwargs(self):
-    #     u=request.session["Username"]
-    #     kwargs = super(Addentryform, self).get_form_kwargs()
-    #     kwargs['host'] = u
-    #     return kwargs
     def get(self,request,*args,**kwargs):
         u = request.session['Username']
     #     return redirect("view_paymode")
